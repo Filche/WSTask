@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Getter
 public class Employee {
     private String firstName;
-    private String  lastName;
+    private String lastName;
     private String description;
     private String characteristics;
     private Post post;

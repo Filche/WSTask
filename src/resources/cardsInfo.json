@@ -1,0 +1,24 @@
+{
+  "Employees": [
+    {
+      "firstName": "",
+      "lastName": "",
+      "description": "",
+      "characteristics": "",
+      "post": {
+        "id": "",
+        "name": ""
+      }
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "description": "",
+      "characteristics": "",
+      "post": {
+        "id": "",
+        "name": ""
+      }
+    }
+    ]
+  }
