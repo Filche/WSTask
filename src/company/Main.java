@@ -1,7 +1,6 @@
 package company;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
@@ -12,8 +11,8 @@ public class Main {
 
     private final static Map<UUID, Post> posts = new HashMap<>();
 
-    public static void main(String[] args) throws IOException{
-        Path filePath = Path.of("D:\\Программирование\\Java\\PostCards\\text.txt");
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        Path filePath = Path.of("D:\\Программирование\\Java\\PostCards\\src\\resources\\text.txt");
         File file = new File(String.valueOf(filePath));
         String regexString2 = "(\n*firstName: )(.+)(\nlastName: )(.+)(\ndescription: )(.*)(\ncharacteristics: )(.+)(\npostId: )(.+)";
         String regexString1 = "(.+\n.+\n.+\n.+\n.+)";
